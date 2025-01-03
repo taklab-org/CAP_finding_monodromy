@@ -190,7 +190,7 @@ ub::vector< kv::complex<intval> > phi4_path2;
   phi1(2) = kv::complex<intval>(0,0);
   phi1(3) = kv::complex<intval>(0,0);
   //
-  /////// Compute the analytic continuation on the path gamma_{1,1}
+  /////// Compute the analytic continuation on the path gamma_{2}
   phi1_vec.resize(2*n);
   //
   for (int i = 0; i < n; i++) {
@@ -244,7 +244,7 @@ ub::vector< kv::complex<intval> > phi4_path2;
   phi2(2) = kv::complex<intval>(0,0);
   phi2(3) = kv::complex<intval>(0,0);
   //
-  /////// Compute the analytic continuation on the path gamma_{1,1}
+  /////// Compute the analytic continuation on the path gamma_{2}
   phi2_vec.resize(2*n);
   //
   for (int i = 0; i < n; i++) {
@@ -297,7 +297,7 @@ ub::vector< kv::complex<intval> > phi4_path2;
   phi3(2) = kv::complex<intval>(1,0);
   phi3(3) = kv::complex<intval>(0,0);
   //
-  /////// Compute the analytic continuation on the path gamma_{1,1}
+  /////// Compute the analytic continuation on the path gamma_{2}
   phi3_vec.resize(2*n);
   //
   for (int i = 0; i < n; i++) {
