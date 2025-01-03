@@ -360,7 +360,7 @@ ub::vector< kv::complex<intval> > phi4_path2;
   // std::cout << "phi_vec: " << phi4_vec << '\n';
   vec_odefunc_anticlockwise< kv::complex<intval> > f2(x2,y2,r2);
   start4 = 0;
-  end4 = 1;
+  end4 = 2;
   std::cout << "Computing phi4 along the path gamma_{2}..." << '\n';
   r = kv::odelong_maffine(
     f2,
