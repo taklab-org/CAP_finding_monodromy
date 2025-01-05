@@ -36,7 +36,7 @@ The fundamental solution matrix is analytically continued along the loop $\Sigma
 c++ -I.. -O3 -DNDEBUG -DKV_FASTROUND find_monodromy_path1.cc -fopenmp
 ```
 
-This code provides rigorous inclusion of $(\Sigma_1)_\ast\mathrm{Id}$. It takes approximately 319 mins ($\approx$ 5 hours) and fails in including the solution under the target magin of error.
+This code provides rigorous inclusion of $(\Sigma_1)_\ast\mathrm{Id}$. It took approximately 319 mins ($\approx$ 5 hours) and failed in including the solution under the target magin of error.
 
 ### Analytic continuation using *DD* precision (sec 4)
 
