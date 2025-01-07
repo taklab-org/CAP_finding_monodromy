@@ -49,7 +49,7 @@ c++ -I.. -O3 -DNDEBUG -DKV_FASTROUND find_monodromy_path1_dd.cc -fopenmp
 This code provides tight enclosure of $(\Sigma_1)_\ast\mathrm{Id}$. On our workstation (AMD(R) EPYC(TM) 9754 @ 2.25 GHz processors), the computation took approximately 1207 minutes ($\approx$ 20 hours) and successfully enclosed the solution under the target margin of error.
 
 
-For the other paths, one can execute the files `find_monodromy_pathi_dd.cc`, where i corresponds the index of each path. Note that it took 1316 mins ($\approx$ 22 hours) for path2_alt, 1095 mins ($\approx$ 18.3 hours) for path3, 2613 mins ($\approx$ 43.5 hours) for path 4.
+For the other paths, one can execute the files `find_monodromy_pathi_dd.cc`, where i corresponds the index of each path. Note that it took 1316 mins ($\approx$ 22 hours) for path2_alt, 1095 mins ($\approx$ 18.3 hours) for path3, 2613 mins ($\approx$ 43.5 hours) for path4, 801 mins ($\approx$ 13.4 hours) for path5, and 825 mins ($\approx$ 13.8 hours) for path6.
 
 
 Copyright (C) 2024  T Ishige and A Takayasu.
